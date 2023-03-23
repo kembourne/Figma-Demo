@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
+.flag {
+  width: 20px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heading {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.foodimage {
+  width: 170px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.ingredients {
+  border: 1px solid black;
+  width: 80%;
+  height: 300px;
+  border-radius: 16px;
+  padding: 20px;
+}
+.last {
   display: flex;
   flex-direction: column;
-  align-items: center;
+}
+.last2 {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+@media screen and (max-width: 820px) {
+  .main {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 520px) {
+  .last2 {
+    flex-direction: column;
+  }
+  .main {
+    flex-direction: column;
+  }
+}
+.one {
+  border: 1px solid black;
+  padding: 20px;
+  width: fit-content;
+  border-radius: 16px;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+}
+.phone {
+  width: 325px;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  padding: 30px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.h2{
+    margin: 0px;
+}
+.edit{
+    cursor: pointer;
+}
+.span{
+    margin-top: 50px;
+}
+.trick1{
+ width: 100%;
+ background-color: rgba(242, 242, 242, 1);
+}
+.finge{
+  width: fit-content;
+  height: fit-content;
+  background-color: rgba(217, 217, 217, 1);;
+  color: black;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
-
-.App-link {
-  color: #61dafb;
+.last{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.alllast{
+  width: 80%;
+  height: 200px;
+  border-radius: 16px;
+  border: 1px solid black;
+  padding: 20px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}
+label{
+  color: black;
+}
+h3{
+  color: black;
+}
+.hello{
+width: 70%;
+height: 2px;
+background-color: rgba(245, 0, 87, 1);
 }
